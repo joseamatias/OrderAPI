@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace OrderAPI.Domain.Models
+namespace OrderAPI.Domain.Entities
 {
     public class Items
     {
@@ -17,8 +17,16 @@ namespace OrderAPI.Domain.Models
         public double PricePerUnit { get; set; }
         public TaxType Type { get; set; }
         public double Subtotal { get; set; }
-        public double VatPercentaje { get; set; }
-        public double TotalWithVat { get; set; }
+        public double VatPercentaje { 
+            get {
+                return ((int)Type).Equals(2) ? 0 : 25;
+            }
+        }
+        public double TotalWithVat { 
+            get {
+                return Subtotal * (1 + VatPercentaje / 100);
+            }
+        }
 
     }
 }
