@@ -1,4 +1,4 @@
-﻿namespace OrderAPI.DTOs
+﻿namespace OrderAPI.Models
 {
     public class ItemsResponse:  ItemsRequest
     {    

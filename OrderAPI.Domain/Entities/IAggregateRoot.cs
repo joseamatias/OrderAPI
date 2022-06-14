@@ -1,4 +1,4 @@
-﻿namespace OrderAPI.Domain.Models
+﻿namespace OrderAPI.Domain.Entities
 {
     
     public interface IAggregateRoot

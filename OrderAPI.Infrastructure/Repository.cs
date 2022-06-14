@@ -1,4 +1,4 @@
-﻿using OrderAPI.Domain.Models;
+﻿using OrderAPI.Domain.Entities;
 using OrderAPI.Infrastructure.Context;
 using System;
 using System.Linq;

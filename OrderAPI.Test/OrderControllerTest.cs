@@ -6,7 +6,7 @@ using OrderApi.Mappings;
 using OrderAPI.Application;
 using OrderAPI.Controllers;
 using OrderAPI.Domain.Enums;
-using OrderAPI.DTOs;
+using OrderAPI.Models;
 using System.Collections.Generic;
 
 namespace OrderAPI.Test

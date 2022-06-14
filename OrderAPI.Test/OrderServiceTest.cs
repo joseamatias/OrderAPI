@@ -3,7 +3,7 @@ using NUnit.Framework;
 using OrderApi.Mappings;
 using OrderAPI.Application;
 using OrderAPI.Domain.Enums;
-using OrderAPI.Domain.Models;
+using OrderAPI.Domain.Entities;
 using System.Collections.Generic;
 
 namespace OrderAPI.Test

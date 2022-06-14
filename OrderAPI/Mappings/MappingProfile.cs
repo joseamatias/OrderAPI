@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using OrderAPI.Domain.Models;
-using OrderAPI.DTOs;
+using OrderAPI.Domain.Entities;
+using OrderAPI.Models;
 
 namespace OrderApi.Mappings
 {

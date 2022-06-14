@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace OrderAPI.Domain.Models
+namespace OrderAPI.Domain.Entities
 {
     public class Order
     {

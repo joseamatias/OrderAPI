@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace OrderAPI.DTOs
+namespace OrderAPI.Models
 {
     public class ItemsRequest
     {

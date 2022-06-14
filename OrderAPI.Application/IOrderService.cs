@@ -1,4 +1,4 @@
-﻿using OrderAPI.Domain.Models;
+﻿using OrderAPI.Domain.Entities;
 
 namespace OrderAPI.Application
 {

@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using OrderAPI.Application;
-using OrderAPI.Domain.Models;
-using OrderAPI.DTOs;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+using OrderAPI.Domain.Entities;
+using OrderAPI.Models;
 
 namespace OrderAPI.Controllers
 {
@@ -21,7 +19,11 @@ namespace OrderAPI.Controllers
             _mapper = mapper;
         }
 
-        // POST api/<OrderController>
+        /// <summary>
+        /// Method to calculate tax
+        /// </summary>
+        /// <param name="orderRequest"></param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Post([FromBody] OrderRequest orderRequest)
         {

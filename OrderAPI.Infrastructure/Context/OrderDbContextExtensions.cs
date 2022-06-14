@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using OrderAPI.Domain.Models;
+using OrderAPI.Domain.Entities;
 using OrderAPI.Domain.Enums;
 
 namespace OrderAPI.Infrastructure.Context

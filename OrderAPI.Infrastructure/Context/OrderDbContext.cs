@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using OrderAPI.Domain.Models;
+using OrderAPI.Domain.Entities;
 
 namespace OrderAPI.Infrastructure.Context
 {
